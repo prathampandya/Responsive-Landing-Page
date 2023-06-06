@@ -1,10 +1,10 @@
 @font-face {
     font-family:"gotham" ;
-    src: url(./GothamBook.ttf);
+    src: url(./fonts/GothamBook.ttf);
 }
 @font-face {
     font-family: "gothambold";
-    src: url(./GothamBold.ttf);
+    src: url(./fonts/GothamBold.ttf);
 }
 *{
     margin: 0;
@@ -613,11 +613,11 @@ div.portfolio-header{
 
     @font-face {
         font-family:"gotham" ;
-        src: url(./GothamBook.ttf);
+        src: url(./fonts/GothamBook.ttf);
     }
     @font-face {
         font-family: "gothambold";
-        src: url(./GothamBold.ttf);
+        src: url(./fonts/GothamBold.ttf);
     }
     *{
         margin: 0;
@@ -1200,11 +1200,11 @@ div.portfolio-header{
 
     @font-face {
         font-family:"gotham" ;
-        src: url(./GothamBook.ttf);
+        src: url(./fonts/GothamBook.ttf);
     }
     @font-face {
         font-family: "gothambold";
-        src: url(./GothamBold.ttf);
+        src: url(./fonts/GothamBold.ttf);
     }
     *{
         margin: 0;
@@ -1689,7 +1689,7 @@ div.portfolio-header{
     .client-review{
         margin-bottom: 200px;
         width: 100%;
-        background-image: url(./images/second.png);
+        background-image: url(./images/first.png);
         background-repeat: no-repeat;
         font-family: poppins;
         color: #ffffff;
