@@ -541,6 +541,12 @@ div.portfolio-header{
     top:0;
     right:0;
 }
+.creator-svg-3{
+    position: absolute;
+    display: none;
+    left: 0;
+    bottom: 0;
+}
 .creator-corner{
     color: #ffffff;
     background-color: #A87FF3 ;
@@ -844,8 +850,6 @@ div.portfolio-header{
     }
     .portal-image-web{
         padding-right: 19px;
-        max-height: 160px;
-        width: 10%;
     }
     .mode-change{
         border: 1px gray;
@@ -1311,12 +1315,19 @@ div.portfolio-header{
         left: 0;
         bottom: 0;
         width: 18.39%;
+        z-index: 1;
     }
     .creator-svg-2{
         position: absolute;
         top:0;
         right:0;
         width: 9.81%;
+    }
+    .creator-svg-3{
+        display: flex;
+        position: absolute;
+        left: 0;
+        bottom: 0;
     }
     .creator-corner{
         color: #ffffff;
@@ -1499,6 +1510,7 @@ div.portfolio-header{
     .vintage-image-web{
         display: flex;
         width: 100%;
+        object-fit: cover;
     }
     .portal-image-web{
         display: flex;
@@ -1615,7 +1627,6 @@ div.portfolio-header{
     }
     .portal-image-web{
         padding-right: 19px;
-        max-height: 160px;
     }
     .mode-change{
         border: 1px gray;
@@ -1956,14 +1967,13 @@ div.portfolio-header{
     .about-details-even{
         font-family: "gothambold";
         padding-left: 72px;
-        font-size: 2.8vw;
+        font-size: 1.8vw;
         font-weight: 700;
         letter-spacing: -0.05em;
         align-items: center;
         align-self: center;
         font-style: normal;
         font-weight: 500;
-        font-size: 28px;
         line-height: 100%;
         width: 50%;
     }
@@ -2036,14 +2046,13 @@ div.portfolio-header{
     }
     .about-details-last{
         padding-left: 72px;
-        font-size: 2.8vw;
+        font-size: 1.8vw;
         font-weight: 700;
         letter-spacing: -0.05em;
         align-items: center;
         align-self: center;
         font-style: normal;
         font-weight: 500;
-        font-size: 28px;
         line-height: 100%;
         font-family: "gothambold";
         width: 50%;
@@ -2069,7 +2078,7 @@ div.portfolio-header{
         line-height: 100%;
         letter-spacing: -0.05em;
         padding: 68px 255px;
-        margin: 0 50px;
+        margin: 0;
         width: 100%;
     }
     .creator-svg-1{
@@ -2077,12 +2086,19 @@ div.portfolio-header{
         left: 0;
         bottom: 0;
         width: 18.39%;
+        z-index: 1;
     }
     .creator-svg-2{
         position: absolute;
         top:0;
         right:0;
         width: 9.81%;
+    }
+    .creator-svg-3{
+        display: flex;
+        position: absolute;
+        left: 0;
+        bottom: 0;
     }
     .creator-corner{
         color: #ffffff;
@@ -2519,7 +2535,7 @@ div.portfolio-header{
         .skills-info-whole{
             width: 61.80%;
             padding: 0;
-            padding: 0 50px 0 20px;
+            padding: 0;
         }
         .skills-part-1-heading{
             display: flex;
@@ -2787,6 +2803,29 @@ div.portfolio-header{
             line-height: 100%;
             font-family: "gothambold";
             width: 50%;
+        }
+        .creator-says {
+            font-size: 2.1vw;
+            width: 48.13%;
+            letter-spacing: -0.05em;
+            font-weight: 300;
+            padding: 6.046% 11.45% 6.046% 34.45%;
+            line-height: 100%;
+            letter-spacing: -0.05em;
+            text-transform: capitalize;
+        }
+        .creator-svg-1{
+            position: absolute;
+            left: 1%;
+            bottom: 0;
+            z-index: 1;
+            height: 175%;
+        }
+        .creator-svg-3{
+            display: flex;
+            position: absolute;
+            left: 0;
+            bottom: 0;
         }
     }
            
