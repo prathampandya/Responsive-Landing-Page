@@ -14,6 +14,9 @@
    
 }
 
+a{
+    color: #292929;
+}
 a:visited {
     color: #292929;
     background-color: transparent;
@@ -24,7 +27,6 @@ a:visited {
     background-color: transparent;
   }
 body{
-    /* max-width: 430px; */
     box-sizing: border-box;
 }
 html {
@@ -310,7 +312,7 @@ div.portfolio-header{
     color: #784DC7;
     background-color: #e3d4ff;
     font-family: "gotham";
-    margin-bottom: 23px;
+    margin-bottom: 15px;
 }
 
 .portal-button{
@@ -4773,3 +4775,602 @@ hr{
     }
     
 }
+
+@media screen and (min-width:200px) and (max-width:380px) {
+    
+    body{
+        box-sizing: border-box;
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .hero-navbar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-whole{
+        padding: 50px 0 30px 0;
+        background-color: #ffffff;
+        color: #292929;
+        display: flex;
+        justify-content: space-between;
+        width: 89.66%;
+        align-items: center;
+    }
+    .navbar-logo{
+            display: flex;
+            align-items: center;
+            gap:5px;
+            /* justify-content: space-around; */
+            font-size: 20px;
+            font-family: Poppins;
+            font-weight: 700;
+        }
+    .nav-logo-1{
+        fill: #000000;
+    }
+    .navbar-menu{
+    
+    }
+    .switch-mode{
+        display: none;
+    }
+    .nav-options{
+        display: none;
+    }
+    /* .menu-svg {
+        color: #000000;
+    } */
+    .menu-svg-1{
+        stroke: #000000;
+    }
+    .vintage-image-web{
+        display: none;
+    }
+    .portal-image-web{
+        display: none;
+    }
+    .intro-name{
+        padding-top: 40px;
+        gap: 1px;
+    }
+    .text-1{
+        text-align: center;
+        box-sizing: border-box; 
+        width: 100%;
+        font-family: Anton;
+        display: flex;
+        justify-content: center;
+        color: #292929;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 79px;
+        font-family: 'Anton';
+        letter-spacing: -0.03em;
+    }
+    .text-2{
+        font-family: Anton;
+        background: linear-gradient(90deg, #FA709A 0%, #FEE140 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        line-height: 130%;
+        /* padding-top: 10px; */
+        font-weight: 300;
+        font-size: 42px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        padding: 0 7.44%;
+        letter-spacing: -0.03em;
+        white-space: nowrap;
+    }
+    .intro-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 7.44%;
+    
+    }
+    .icon-logos{
+        /* display: flex;
+        align-items: center;
+        margin-; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: 42px;
+        margin-bottom: 34px;
+        fill: #000000;
+        stroke: #000000;
+    
+    }
+    .icon-svg{
+        fill:black;
+    }
+    .linkedin-svg{
+        fill:#000000 !important;
+        background-color: #000000;
+    }
+    rect{
+        stroke:black;
+    }
+    .text-button{
+        /* box-sizing: border-box; */
+        display: flex;
+        color: #ffffff;
+        align-items: center;
+        font-family: "gotham";
+        width: 100%;
+        background-color: #292929;
+        padding: 10px 0 10px 0;
+        font-family: 'Gotham';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 100%;
+        justify-content: center;
+        gap: 9.67px;
+    }
+    
+    .text-download{
+        align-items: center;
+        justify-content: center;
+        background-color: #292929;
+    }
+    
+  
+    
+    .rates-div-whole{
+        display: flex;
+        justify-content: center;
+        margin: 60px 18px 0 18px;
+    }
+    .rates{
+        display: grid;
+        row-gap: 144px;
+        color: #83E281;
+        border: 1px solid #808080;
+        border-radius: 29px;
+        padding: 45px 48px;
+        font-family: Anton;
+        text-align: center;
+        letter-spacing: -0.05em;
+    }
+    .rates-1{
+        font-size: 64px;
+        letter-spacing: 0em;
+        padding: 0 85px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.05em;
+    }
+    .rates-1-stat{
+        font-family: "Anton";
+        font-size:  48px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .rates-1-info{
+        font-family: "gotham";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: -0.05em;
+    }
+    .rates-svg{
+        display: none;
+    }
+    .portfolio{
+        margin-top:150px;
+        width: 100%;
+        padding: 0 22px;
+        box-sizing: border-box;
+    }
+    
+    
+    div.portfolio-header{
+        color: #292929;
+        font-family:Anton ;
+        line-height: 64px;
+        font-size: 64px;
+        padding-bottom: 36px;
+    }
+    /* .mi-portal{
+        height: 1766px;
+        width: 386px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#6a1aff ; 
+        border: 1px solid #737373; 
+    } */
+    .mi-portal {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        width: 100%;
+    }
+    .mi-portal-1{
+    
+        /* margin-top: 36px;    */
+        border: 1px solid #737373;
+        border-radius: 11px;
+        padding: 30px;
+    }
+    .mi-portal-1-web{
+        border: 1px solid #737373;
+        border-radius: 11px;
+        padding: 30px;
+        display: none;
+    }
+    .portal-svg{
+        height: 200px;
+        /* width: 326px; */
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    
+    .portal-info{
+        height: 73px;
+        color: #292929;
+        font-family: Arial;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: 23px 0 21px 0;
+    }
+    .portal-heading{
+        color: #292929;
+        font-size: 28px;
+        font-weight: 700;
+        padding-bottom: 21px;
+    }
+    .portal-tags{
+        border: 1px solid #784DC7;
+        border-radius: 15px;
+        line-height: 8px;
+        font-size:8px;
+        padding: 4px 8px;
+        color: #784DC7;
+        background-color: #e3d4ff;
+        font-family: "gotham";
+        margin-bottom: 23px;
+    }
+    
+    .portal-button{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: #f0f8ff;
+        align-items: center;
+        font-family: "gotham";
+        font-size: 10px;
+        padding: 12px 95px;
+        background-color: #292929;
+        order: 1;
+        flex-grow: 0;
+        flex: none;
+        white-space: nowrap;
+        width: 100%;
+    }
+    .portal-button:hover{
+        color: #f0f8ff;
+        font-size: 16px;
+        background-color: #554d4d;
+        cursor: pointer;
+    }
+    .skills-whole{
+        margin:100px 0;
+    }
+    .skills-heading{
+        color: #292929;
+        font-size: 36px;
+        padding: 0 0 25px 11px ;
+        font-family: anton;
+    }
+    .in_skills_part{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .skills-part{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+    .skills-part-1{
+        border: 1px solid #000000;
+        border-radius: 11px;
+    }
+    
+    .skills-svg{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        padding: 9.30% 20.46% 0 18.13%;
+    }
+    .skills-percentage{
+        position: absolute;
+        color: #000000;
+        font-family: "gothambold";
+        font-weight: 500;
+        letter-spacing: -0.05em;
+        font-size: 28px;
+    }
+    .skills-info-whole{
+        padding: 10px 20px 30px 20px;
+    }
+    .skills-part-1-heading{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "gothambold";
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .skills-info{
+        font-family: "gotham";
+        /* padding: 0 50px 60px 40px; */
+        letter-spacing: -0.05em;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    
+    .client-review{
+        width: 100%;
+        background-image: url(./images/second.png);
+        background-size: 100% 600px;
+        background-repeat: no-repeat;
+        font-family: poppins;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    .client-name{
+        font-weight: 600;
+        text-align: center;
+        padding: 48px 0 30px 0;
+        width: 100%;
+    }
+    .review-details{
+        font-style: italic;
+        font-weight: 700;
+        padding: 0 11px;
+        line-height: 17.2px;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        letter-spacing: -0.05em;
+        color: #ffffff;
+    }
+    
+    .review-svg{
+        margin-top: 30px;
+        margin-bottom: 48px;
+    }
+    
+    
+    .about-me{
+        
+        margin-bottom: 60px;
+        margin-top: 70px;
+    }
+    
+    .zig-zag-web{
+        display: none;
+    }
+    .about-me-and-svg{
+        display: flex;
+        flex-direction: row;
+    }
+    .about-heading{
+        color: #292929;
+        font-family:Anton ;
+        font-size: 32px;
+        font-weight: 400;
+        padding-left: 11px;
+    
+    }
+    .about-image-and-details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-image-and-details-even{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .about-details{
+        font-family: "gothambold";
+        padding: 25px 17px 25px 11px;
+        font-size: 4vw;
+        font-weight: 700;
+        letter-spacing: -0.05em;
+        align-items: center;
+    }
+    .about-details-even{
+        font-family: "gothambold";
+        padding: 25px 17px 25px 11px;
+        font-size: 4vw;
+        font-weight: 700;
+        letter-spacing: -0.05em;
+        align-items: center;
+    }
+    .about-image-and-details-last{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .about-details-last{
+        font-family: "gothambold";
+        padding: 25px 17px 25px 11px;
+        font-size: 4vw;
+        font-weight: 700;
+        letter-spacing: -0.05em;
+        align-items: center;
+    }
+    
+    .about-images{
+        padding: 0 11px;
+    }
+    
+    .image-boy{
+        width: 100%;
+    }
+    .image-boy-web{
+        display: none;
+    }
+    .image-boy-web-even{
+        display: none;
+    }
+    .spiral-for-web , .dawn-for-web , .warm-for-web{
+        display: none;
+    }
+    
+    .creator-corner{
+        position: relative;
+        width: 89.30%;
+        margin: 0 auto;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        margin-top: 115px;
+    }
+    .creator-says{
+        font-size: 12px;
+        width: 48.13%;
+        letter-spacing: -0.05em;
+        font-weight: 300;
+        padding: 6.046% 11.45% 6.046% 34.45%;
+        line-height: 100%;
+        letter-spacing: -0.05em;
+        text-transform: capitalize;
+    }
+    .creator-svg-1{
+        position: absolute;
+        right: 67.44%;
+        bottom: 0;
+    }
+    .creator-svg-2{
+        position: absolute;
+        top:0;
+        right:0;
+    }
+    .creator-svg-3{
+        position: absolute;
+        display: none;
+        left: 0;
+        bottom: 0;
+    }
+    .creator-corner{
+        color: #ffffff;
+        background-color: #A87FF3 ;
+        font-family: "gotham";
+        font-size: 12px;
+        font-weight: 400;
+    
+    }
+    .mode-change{
+        border: 1px gray;
+        color: #f0f8ff;
+        border-radius: 5px;
+        background-color:#292929;
+        padding: 15px;
+        margin: 20px;
+    }
+    
+    .footer-page{
+        background-color: #292929;
+        width: 100%;
+        margin: -70.5px 0 0px 0;
+        box-sizing: border-box;
+        padding-bottom: 42px;
+    }
+    .footer-svg{
+        background-color: #292929;
+        fill: #f0f8ff;
+    }
+    .footer-svg-1{
+        fill: #ffffff;
+    }
+    .footer-tian-logo{
+        font-size: 33.75px;
+        line-height: 33.75px;
+        padding: 56.5px 0 0px 22px;
+        font-family: Poppins;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    
+    .footer-options{
+        display: flex;
+        font-family: "gotham";
+        color: #f0f8ff;
+        /* width: 360px; */
+        padding-left: 35px;
+        background-color: #292929;
+        padding-right: 35px;
+        padding-bottom: 34px;
+        justify-content: center;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    .footer-options-1{
+        display: flex;
+        font-family: "gotham";
+        color: #f0f8ff;
+        background-color: #292929;
+        width: 83.72%;
+        justify-content: center;
+        padding: 0;
+        
+    }
+    
+    
+    .footer-tian-logo{
+        display: flex;
+        align-items: center;
+        gap:5px;
+        justify-content: center;
+        font-size: 33.75px;
+        line-height: 33.75px;
+        padding: 118px 0px 41.97px 0;
+        font-family: Poppins;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    hr{
+        height: 0.0008px;
+        color: white;
+        background-color: #292929;
+    }
+}
+
